@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./images/google_icon.png " width="100%" type="image/x-icon" >
+    <link type="text/css" rel="stylesheet" href="./css/google.css" />
+    <title>Google</title>
+
+</head>
+<body>
+    <!-- Menu tab đầu tiên -->
+    <div class="head-tab-container">
+        <a class="head-options" href="#" id="gmail">Gmail</a>
+        <a class="head-options" href="#" id="Picture">Hình ảnh</a>
+        <div class="btn-container head-options">
+            <img src="./images/9_dot.png" type="button" class="btn" alt="More">
+        </div>  
+        <input type="text" class="google-active-login head-options" readonly>
+    </div>
+<!-- logo Google -->
+    <div class="logo">
+        <a href="/google.html"><img src="./images/google_logo.png" alt="Google" class="google-logo"></a>
+    </div>
+    <!-- ô tìm kiếm -->
+   
+    <div class="search-input">
+        <div class="search-input-border">
+            <div class="btn-container">
+                <img src="./images/search_icon.png" type="button" class="btn" alt="More">
+            </div>
+            <input type="text" class="search-box" value="">
+            <div class="btn-container">
+                <img src="./images/keyboard.png" type="button" class="btn" alt="More">
+            </div>
+            <div class="btn-container">
+                <img src="./images/micro.png" type="button" class="btn" alt="More">
+            </div>
+        </div>
+    </div>
+<!-- nút nhấn -->
+    <div class="google-buttons-container">
+        <div class="google-buttons">
+            <button class="search-btn" accesskey="o" type="button">Tìm trên Google</button>
+            <button class="search-btn" type="button">Xem trang đầu tiên tìm được</button>
+        </div>
+
+    </div>
+<!-- Ngôn ngữ -->
+    <div class="languages">
+        <p class= "language-elements">Google hiện đã có trên các ngôn ngữ:</p>
+        <a class= "language-elements" href="#">Tiếng Việt</a>
+        <a class= "language-elements" href="#">Tiếng Anh</a>
+    </div>
+
+    <footer>
+        <div class="selected-laguage">
+            <input type="text" readonly disabled placeholder="Tiếng Việt">
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="./js/search.js"></script>
+
+</body>
+</html>
